@@ -1,0 +1,24 @@
+#Data files
+data/raw/*
+data/processed/*
+!.gitkeep
+*.csv
+*xlsx
+*.parquet
+*.db
+*.sqlite
+
+#Virtual Enviroment
+Venv/
+.Venv/
+
+#Enviroment Variables & Keys
+.env
+config.py
+
+# Python Cache & IDEs
+__pycache__/
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
